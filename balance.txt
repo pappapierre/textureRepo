@@ -3,7 +3,7 @@
     {
       "niceName": "Lander",
       "guid": "e258cf24-a503-4835-bcf1-7595ae906c40",
-      "changeTest": "Chek",
+      "changeTest": "Checked",
       "maxOwned": 1,
       "levelCap": 0,
       "xpValue": 25,
@@ -65,7 +65,12 @@
         {
           "resourceType": 0,
           "isConsumer": false,
+          "baseRate": 0.5,
+          "perLevelMult": 1.005,
           "consumesResourceType": 0,
+          "ratio": 1.0,
+          "ratioMult": 1.0,
+          "ratioImprovesByLevel": 0.001,
           "maxProduced": 0.5
         }
       ],
@@ -104,7 +109,12 @@
         {
           "resourceType": 0,
           "isConsumer": false,
+          "baseRate": 10.0,
+          "perLevelMult": 1.02,
           "consumesResourceType": 0,
+          "ratio": 1.0,
+          "ratioMult": 1.0,
+          "ratioImprovesByLevel": 0.001,
           "maxProduced": 10.0
         }
       ],
@@ -143,6 +153,10 @@
       "buckets": [
         {
           "resourceType": 0,
+          "baseCap": 2.0,
+          "capIncrease": 10.0,
+          "perLevelMult": 10.0,
+          "mult": 25.0,
           "lastStored": 0.0,
           "stored": 0.0
         }
@@ -245,7 +259,12 @@
         {
           "resourceType": 1,
           "isConsumer": false,
+          "baseRate": 0.5,
+          "perLevelMult": 1.005,
           "consumesResourceType": 0,
+          "ratio": 1.0,
+          "ratioMult": 1.0,
+          "ratioImprovesByLevel": 0.001,
           "maxProduced": 0.5
         }
       ],
@@ -284,7 +303,12 @@
         {
           "resourceType": 1,
           "isConsumer": true,
+          "baseRate": 1.0,
+          "perLevelMult": 1.02,
           "consumesResourceType": 0,
+          "ratio": 0.75,
+          "ratioMult": 1.0,
+          "ratioImprovesByLevel": 0.001,
           "maxProduced": 1.0
         }
       ],
@@ -323,6 +347,10 @@
       "buckets": [
         {
           "resourceType": 1,
+          "baseCap": 2.0,
+          "capIncrease": 10.0,
+          "perLevelMult": 7.0,
+          "mult": 25.0,
           "lastStored": 0.0,
           "stored": 0.0
         }
@@ -425,7 +453,12 @@
         {
           "resourceType": 0,
           "isConsumer": false,
+          "baseRate": 0.5,
+          "perLevelMult": 1.005,
           "consumesResourceType": 0,
+          "ratio": 1.0,
+          "ratioMult": 1.0,
+          "ratioImprovesByLevel": 0.001,
           "maxProduced": 0.5
         }
       ],
@@ -464,7 +497,12 @@
         {
           "resourceType": 2,
           "isConsumer": true,
+          "baseRate": 1.0,
+          "perLevelMult": 1.02,
           "consumesResourceType": 1,
+          "ratio": 0.5,
+          "ratioMult": 1.0,
+          "ratioImprovesByLevel": 0.001,
           "maxProduced": 1.0
         }
       ],
@@ -503,6 +541,10 @@
       "buckets": [
         {
           "resourceType": 2,
+          "baseCap": 2.0,
+          "capIncrease": 10.0,
+          "perLevelMult": 5.0,
+          "mult": 25.0,
           "lastStored": 0.0,
           "stored": 0.0
         }
@@ -573,21 +615,37 @@
       "buckets": [
         {
           "resourceType": 0,
+          "baseCap": 5.0,
+          "capIncrease": 100.0,
+          "perLevelMult": 5.0,
+          "mult": 5.0,
           "lastStored": 0.0,
           "stored": 0.0
         },
         {
           "resourceType": 1,
+          "baseCap": 5.0,
+          "capIncrease": 100.0,
+          "perLevelMult": 5.0,
+          "mult": 5.0,
           "lastStored": 0.0,
           "stored": 0.0
         },
         {
           "resourceType": 2,
+          "baseCap": 5.0,
+          "capIncrease": 100.0,
+          "perLevelMult": 5.0,
+          "mult": 5.0,
           "lastStored": 0.0,
           "stored": 0.0
         },
         {
           "resourceType": 3,
+          "baseCap": 5.0,
+          "capIncrease": 100.0,
+          "perLevelMult": 5.0,
+          "mult": 5.0,
           "lastStored": 0.0,
           "stored": 0.0
         }
@@ -626,7 +684,12 @@
         {
           "resourceType": 0,
           "isConsumer": false,
+          "baseRate": 0.5,
+          "perLevelMult": 1.005,
           "consumesResourceType": 0,
+          "ratio": 1.0,
+          "ratioMult": 1.0,
+          "ratioImprovesByLevel": 0.001,
           "maxProduced": 0.5
         }
       ],
@@ -665,7 +728,12 @@
         {
           "resourceType": 3,
           "isConsumer": true,
+          "baseRate": 1.0,
+          "perLevelMult": 1.02,
           "consumesResourceType": 2,
+          "ratio": 0.25,
+          "ratioMult": 1.0,
+          "ratioImprovesByLevel": 0.001,
           "maxProduced": 1.0
         }
       ],
@@ -704,6 +772,10 @@
       "buckets": [
         {
           "resourceType": 3,
+          "baseCap": 2.0,
+          "capIncrease": 10.0,
+          "perLevelMult": 2.0,
+          "mult": 25.0,
           "lastStored": 0.0,
           "stored": 0.0
         }
@@ -742,7 +814,12 @@
         {
           "resourceType": 1,
           "isConsumer": false,
+          "baseRate": 1.0,
+          "perLevelMult": 1.02,
           "consumesResourceType": 0,
+          "ratio": 1.0,
+          "ratioMult": 1.0,
+          "ratioImprovesByLevel": 0.001,
           "maxProduced": 1.0
         }
       ],
@@ -781,7 +858,12 @@
         {
           "resourceType": 0,
           "isConsumer": false,
+          "baseRate": 1.0,
+          "perLevelMult": 1.02,
           "consumesResourceType": 0,
+          "ratio": 1.0,
+          "ratioMult": 1.0,
+          "ratioImprovesByLevel": 0.001,
           "maxProduced": 1.0
         }
       ],
@@ -820,7 +902,12 @@
         {
           "resourceType": 2,
           "isConsumer": false,
+          "baseRate": 1.0,
+          "perLevelMult": 1.02,
           "consumesResourceType": 0,
+          "ratio": 1.0,
+          "ratioMult": 1.0,
+          "ratioImprovesByLevel": 0.001,
           "maxProduced": 1.0
         }
       ],
@@ -859,7 +946,12 @@
         {
           "resourceType": 3,
           "isConsumer": false,
+          "baseRate": 1.0,
+          "perLevelMult": 1.02,
           "consumesResourceType": 0,
+          "ratio": 1.0,
+          "ratioMult": 1.0,
+          "ratioImprovesByLevel": 0.001,
           "maxProduced": 1.0
         }
       ],
