@@ -3,7 +3,7 @@
     {
       "niceName": "Lander",
       "guid": "e258cf24-a503-4835-bcf1-7595ae906c40",
-      "changeTest": "Checked",
+      "changeTest": "news",
       "maxOwned": 1,
       "levelCap": 0,
       "xpValue": 25,
@@ -12,6 +12,11 @@
       "isDestroyable": false,
       "isTogglable": false,
       "canBreakDown": false,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.0,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -24,11 +29,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [],
       "buckets": []
     },
@@ -44,6 +56,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -56,11 +73,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 2.0
+          }
+        ]
+      },
       "producers": [
         {
           "resourceType": 0,
@@ -88,6 +112,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -100,11 +129,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [
         {
           "resourceType": 0,
@@ -132,6 +168,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -144,11 +185,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [],
       "buckets": [
         {
@@ -174,6 +222,11 @@
       "isDestroyable": false,
       "isTogglable": false,
       "canBreakDown": false,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.0,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -186,11 +239,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [],
       "buckets": []
     },
@@ -206,6 +266,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.0,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -218,11 +283,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [],
       "buckets": []
     },
@@ -238,6 +310,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -250,11 +327,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [
         {
           "resourceType": 1,
@@ -282,6 +366,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -294,11 +383,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [
         {
           "resourceType": 1,
@@ -326,6 +422,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -338,11 +439,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [],
       "buckets": [
         {
@@ -368,6 +476,11 @@
       "isDestroyable": false,
       "isTogglable": false,
       "canBreakDown": false,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.0,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -380,11 +493,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [],
       "buckets": []
     },
@@ -400,6 +520,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.0,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -412,11 +537,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [],
       "buckets": []
     },
@@ -432,6 +564,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -444,11 +581,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [
         {
           "resourceType": 0,
@@ -476,6 +620,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -488,11 +637,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [
         {
           "resourceType": 2,
@@ -520,6 +676,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -532,11 +693,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [],
       "buckets": [
         {
@@ -562,6 +730,11 @@
       "isDestroyable": false,
       "isTogglable": false,
       "canBreakDown": false,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.0,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -574,11 +747,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [],
       "buckets": []
     },
@@ -594,6 +774,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.0,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -606,11 +791,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [],
       "buckets": [
         {
@@ -663,6 +855,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -675,11 +872,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [
         {
           "resourceType": 0,
@@ -707,6 +911,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -719,11 +928,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [
         {
           "resourceType": 3,
@@ -751,6 +967,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -763,11 +984,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [],
       "buckets": [
         {
@@ -793,6 +1021,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -805,11 +1038,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [
         {
           "resourceType": 1,
@@ -837,6 +1077,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -849,11 +1094,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [
         {
           "resourceType": 0,
@@ -881,6 +1133,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -893,11 +1150,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [
         {
           "resourceType": 2,
@@ -925,6 +1189,11 @@
       "isDestroyable": true,
       "isTogglable": false,
       "canBreakDown": true,
+      "spinUpDecayRate": 0.05,
+      "breakChanceAway": 0.1,
+      "breakdownTimescaleAway": 0.05,
+      "breakChanceActive": 0.02,
+      "breakdownTimescale": 0.1,
       "multiCost": {
         "costs": [
           {
@@ -937,11 +1206,18 @@
           }
         ]
       },
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
+      "upgradeCosts": {
+        "costs": [
+          {
+            "baseCost": 100,
+            "costResourceType": 0,
+            "costIncrease": 1.4,
+            "costOffset": 0.0,
+            "costLinear": 100.0,
+            "perLevelMult": 1.0
+          }
+        ]
+      },
       "producers": [
         {
           "resourceType": 3,
