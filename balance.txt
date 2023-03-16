@@ -17,7 +17,7 @@
         "costIncrease": 1.0,
         "costOffset": 1.0,
         "costLinear": 0.0,
-        "perLevelMult": 1.0
+        "perLevelMult": 5.0
       }
     ]
   },
