@@ -3,7 +3,7 @@
     {
       "niceName": "Lander",
       "guid": "e258cf24-a503-4835-bcf1-7595ae906c40",
-      "changeTest": "",
+      "changeTest": "Chek",
       "maxOwned": 1,
       "levelCap": 0,
       "xpValue": 25,
