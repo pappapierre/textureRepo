@@ -1,16 +1,18 @@
 {
-  "sheetName": "liveTest",
+  "sheetName": "v1.0",
+  "notes": "initial version of balance sheet",
   "balanceList": [
     {
-      "niceName": "Lander",
+      "niceName": "--- Lander ---",
+      "notes": "testing note stickiness",
       "identifier": {
         "guid": "e258cf24-a503-4835-bcf1-7595ae906c40",
-        "version": "alfred"
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 1,
         "levelCap": 0,
-        "xpValue": 50
+        "xpValue": 25
       },
       "breakdowns": {
         "breakChanceAway": 0.0,
@@ -51,10 +53,11 @@
       "buckets": []
     },
     {
-      "niceName": "Power Tapper",
+      "niceName": "--- Power Tapper ---",
+      "notes": "",
       "identifier": {
         "guid": "ee0a9156-9e35-46b1-b5aa-d8ec0004ff37",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 1,
@@ -112,10 +115,11 @@
       "buckets": []
     },
     {
-      "niceName": "Power Generator",
+      "niceName": "--- Power Generator ---",
+      "notes": "",
       "identifier": {
         "guid": "031f8bc0-fe73-4e67-9ad5-3298320d6aa9",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 10,
@@ -173,10 +177,11 @@
       "buckets": []
     },
     {
-      "niceName": "Power Battery",
+      "niceName": "--- Power Battery ---",
+      "notes": "",
       "identifier": {
         "guid": "8d40234d-e279-46be-bf9a-6f952b1affa5",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 10,
@@ -232,10 +237,11 @@
       ]
     },
     {
-      "niceName": "Research Center",
+      "niceName": "--- Research Center ---",
+      "notes": "",
       "identifier": {
         "guid": "9c3c51d6-97c7-4681-b749-39eff44c5250",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 1,
@@ -281,10 +287,11 @@
       "buckets": []
     },
     {
-      "niceName": "Collector Node",
+      "niceName": "--- Collector Node ---",
+      "notes": "",
       "identifier": {
         "guid": "399e938d-7d0d-4fae-8102-d49cdc3b353b",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 5,
@@ -330,10 +337,11 @@
       "buckets": []
     },
     {
-      "niceName": "Oxygen Tapper",
+      "niceName": "--- Oxygen Tapper ---",
+      "notes": "",
       "identifier": {
         "guid": "1632c72a-86e2-4bf5-b3e2-d49c6e01db3e",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 1,
@@ -391,10 +399,11 @@
       "buckets": []
     },
     {
-      "niceName": "Oxygen Converter",
+      "niceName": "--- Oxygen Converter ---",
+      "notes": "",
       "identifier": {
         "guid": "5ebdd44b-d5df-46a5-8a52-a07aad0d513a",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 10,
@@ -452,10 +461,11 @@
       "buckets": []
     },
     {
-      "niceName": "Oxygen Tank",
+      "niceName": "--- Oxygen Tank ---",
+      "notes": "",
       "identifier": {
         "guid": "dd533b8e-bd6a-4dec-a80d-78129fb66952",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 10,
@@ -511,10 +521,11 @@
       ]
     },
     {
-      "niceName": "Crew Pod",
+      "niceName": "--- Crew Pod ---",
+      "notes": "",
       "identifier": {
         "guid": "fbf553e3-207e-4b8b-9569-35c4c8a7ad87",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 1,
@@ -560,10 +571,11 @@
       "buckets": []
     },
     {
-      "niceName": "Booster Node",
+      "niceName": "--- Booster Node ---",
+      "notes": "",
       "identifier": {
         "guid": "bb8fb873-d901-4637-b252-e74299ab56d8",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 5,
@@ -609,10 +621,11 @@
       "buckets": []
     },
     {
-      "niceName": "Water Tapper",
+      "niceName": "--- Water Tapper ---",
+      "notes": "",
       "identifier": {
         "guid": "a8b3312c-c975-4768-b4a5-c3f21b8be30c",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 1,
@@ -670,10 +683,11 @@
       "buckets": []
     },
     {
-      "niceName": "Water Converter",
+      "niceName": "--- Water Converter ---",
+      "notes": "",
       "identifier": {
         "guid": "0188bf43-6353-465a-90fa-60ebb4f8d609",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 10,
@@ -731,10 +745,11 @@
       "buckets": []
     },
     {
-      "niceName": "Water Tank",
+      "niceName": "--- Water Tank ---",
+      "notes": "",
       "identifier": {
         "guid": "5f139964-7f05-4607-b9a9-b94dd8ab681d",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 10,
@@ -790,10 +805,11 @@
       ]
     },
     {
-      "niceName": "Command Center",
+      "niceName": "--- Command Center ---",
+      "notes": "",
       "identifier": {
         "guid": "65899c9e-987f-4784-88ea-d5383398bfec",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 1,
@@ -839,10 +855,11 @@
       "buckets": []
     },
     {
-      "niceName": "Storage Hub",
+      "niceName": "--- Storage Hub ---",
+      "notes": "",
       "identifier": {
         "guid": "438a1c30-f1a3-4564-b782-20bed8e9dc75",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 10,
@@ -925,10 +942,11 @@
       ]
     },
     {
-      "niceName": "Food Tapper",
+      "niceName": "--- Food Tapper ---",
+      "notes": "",
       "identifier": {
         "guid": "3abbc0d1-9379-4ff2-b262-9e7539a210b3",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 1,
@@ -986,10 +1004,11 @@
       "buckets": []
     },
     {
-      "niceName": "Food Converter",
+      "niceName": "--- Food Converter ---",
+      "notes": "",
       "identifier": {
         "guid": "88480f16-ab46-4171-926f-04451f2a223c",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 10,
@@ -1047,10 +1066,11 @@
       "buckets": []
     },
     {
-      "niceName": "Food Silo",
+      "niceName": "--- Food Silo ---",
+      "notes": "",
       "identifier": {
         "guid": "1974998b-0ee8-476b-81f4-6a09dd5a742a",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 10,
@@ -1106,10 +1126,11 @@
       ]
     },
     {
-      "niceName": "Passive Oxygen Generator",
+      "niceName": "--- Passive Oxygen Generator ---",
+      "notes": "",
       "identifier": {
         "guid": "67530f77-b1f7-4d48-92d6-c5b3d7879164",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 10,
@@ -1167,10 +1188,11 @@
       "buckets": []
     },
     {
-      "niceName": "Passive Power Generator",
+      "niceName": "--- Passive Power Generator ---",
+      "notes": "",
       "identifier": {
         "guid": "f70d2fb5-f3a1-48af-8ddd-0abd4ab8cde0",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 5,
@@ -1228,10 +1250,11 @@
       "buckets": []
     },
     {
-      "niceName": "Passive Water Generator",
+      "niceName": "--- Passive Water Generator ---",
+      "notes": "",
       "identifier": {
         "guid": "09d7d26c-1f93-416b-b408-ab76277e8d5c",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 10,
@@ -1289,10 +1312,11 @@
       "buckets": []
     },
     {
-      "niceName": "Passive Food Generator",
+      "niceName": "--- Passive Food Generator ---",
+      "notes": "",
       "identifier": {
         "guid": "8114b4c9-db70-43de-b6df-6b6897abfd6a",
-        "version": ""
+        "version": "v1.0"
       },
       "ownership": {
         "maxOwned": 10,
