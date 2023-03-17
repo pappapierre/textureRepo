@@ -1,23 +1,29 @@
 {
+  "sheetName": "default",
   "balanceList": [
     {
       "niceName": "Lander",
-      "guid": "e258cf24-a503-4835-bcf1-7595ae906c40",
-      "changeTest": "news",
-      "maxOwned": 1,
-      "levelCap": 0,
-      "xpValue": 25,
-      "isUpgradable": false,
-      "isPurchasable": true,
-      "isDestroyable": false,
-      "isTogglable": false,
-      "canBreakDown": false,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "e258cf24-a503-4835-bcf1-7595ae906c40",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 1,
+        "levelCap": 0,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.0,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": false,
+        "isPurchasable": true,
+        "isDestroyable": false,
+        "isTogglable": false,
+        "canBreakDown": false
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 0,
@@ -29,7 +35,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -46,22 +52,27 @@
     },
     {
       "niceName": "Power Tapper",
-      "guid": "ee0a9156-9e35-46b1-b5aa-d8ec0004ff37",
-      "changeTest": "",
-      "maxOwned": 1,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "ee0a9156-9e35-46b1-b5aa-d8ec0004ff37",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 1,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 10,
@@ -73,7 +84,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -102,22 +113,27 @@
     },
     {
       "niceName": "Power Generator",
-      "guid": "031f8bc0-fe73-4e67-9ad5-3298320d6aa9",
-      "changeTest": "",
-      "maxOwned": 10,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "031f8bc0-fe73-4e67-9ad5-3298320d6aa9",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 10,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -129,7 +145,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -158,22 +174,27 @@
     },
     {
       "niceName": "Power Battery",
-      "guid": "8d40234d-e279-46be-bf9a-6f952b1affa5",
-      "changeTest": "",
-      "maxOwned": 10,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "8d40234d-e279-46be-bf9a-6f952b1affa5",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 10,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -185,7 +206,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -212,22 +233,27 @@
     },
     {
       "niceName": "Research Center",
-      "guid": "9c3c51d6-97c7-4681-b749-39eff44c5250",
-      "changeTest": "",
-      "maxOwned": 1,
-      "levelCap": 0,
-      "xpValue": 25,
-      "isUpgradable": false,
-      "isPurchasable": true,
-      "isDestroyable": false,
-      "isTogglable": false,
-      "canBreakDown": false,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "9c3c51d6-97c7-4681-b749-39eff44c5250",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 1,
+        "levelCap": 0,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.0,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": false,
+        "isPurchasable": true,
+        "isDestroyable": false,
+        "isTogglable": false,
+        "canBreakDown": false
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 0,
@@ -239,7 +265,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -256,22 +282,27 @@
     },
     {
       "niceName": "Collector Node",
-      "guid": "399e938d-7d0d-4fae-8102-d49cdc3b353b",
-      "changeTest": "",
-      "maxOwned": 5,
-      "levelCap": 0,
-      "xpValue": 25,
-      "isUpgradable": false,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "399e938d-7d0d-4fae-8102-d49cdc3b353b",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 5,
+        "levelCap": 0,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.0,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": false,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -283,7 +314,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -300,22 +331,27 @@
     },
     {
       "niceName": "Oxygen Tapper",
-      "guid": "1632c72a-86e2-4bf5-b3e2-d49c6e01db3e",
-      "changeTest": "",
-      "maxOwned": 1,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "1632c72a-86e2-4bf5-b3e2-d49c6e01db3e",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 1,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -327,7 +363,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -356,22 +392,27 @@
     },
     {
       "niceName": "Oxygen Converter",
-      "guid": "5ebdd44b-d5df-46a5-8a52-a07aad0d513a",
-      "changeTest": "",
-      "maxOwned": 10,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "5ebdd44b-d5df-46a5-8a52-a07aad0d513a",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 10,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -383,7 +424,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -412,22 +453,27 @@
     },
     {
       "niceName": "Oxygen Tank",
-      "guid": "dd533b8e-bd6a-4dec-a80d-78129fb66952",
-      "changeTest": "",
-      "maxOwned": 10,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "dd533b8e-bd6a-4dec-a80d-78129fb66952",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 10,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -439,7 +485,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -466,22 +512,27 @@
     },
     {
       "niceName": "Crew Pod",
-      "guid": "fbf553e3-207e-4b8b-9569-35c4c8a7ad87",
-      "changeTest": "",
-      "maxOwned": 1,
-      "levelCap": 0,
-      "xpValue": 25,
-      "isUpgradable": false,
-      "isPurchasable": true,
-      "isDestroyable": false,
-      "isTogglable": false,
-      "canBreakDown": false,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "fbf553e3-207e-4b8b-9569-35c4c8a7ad87",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 1,
+        "levelCap": 0,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.0,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": false,
+        "isPurchasable": true,
+        "isDestroyable": false,
+        "isTogglable": false,
+        "canBreakDown": false
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 0,
@@ -493,7 +544,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -510,22 +561,27 @@
     },
     {
       "niceName": "Booster Node",
-      "guid": "bb8fb873-d901-4637-b252-e74299ab56d8",
-      "changeTest": "",
-      "maxOwned": 5,
-      "levelCap": 0,
-      "xpValue": 25,
-      "isUpgradable": false,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "bb8fb873-d901-4637-b252-e74299ab56d8",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 5,
+        "levelCap": 0,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.0,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": false,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -537,7 +593,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -554,22 +610,27 @@
     },
     {
       "niceName": "Water Tapper",
-      "guid": "a8b3312c-c975-4768-b4a5-c3f21b8be30c",
-      "changeTest": "",
-      "maxOwned": 1,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": false,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "a8b3312c-c975-4768-b4a5-c3f21b8be30c",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 1,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": false,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -581,7 +642,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -610,22 +671,27 @@
     },
     {
       "niceName": "Water Converter",
-      "guid": "0188bf43-6353-465a-90fa-60ebb4f8d609",
-      "changeTest": "",
-      "maxOwned": 10,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "0188bf43-6353-465a-90fa-60ebb4f8d609",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 10,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -637,7 +703,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -666,22 +732,27 @@
     },
     {
       "niceName": "Water Tank",
-      "guid": "5f139964-7f05-4607-b9a9-b94dd8ab681d",
-      "changeTest": "",
-      "maxOwned": 10,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "5f139964-7f05-4607-b9a9-b94dd8ab681d",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 10,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -693,7 +764,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -720,22 +791,27 @@
     },
     {
       "niceName": "Command Center",
-      "guid": "65899c9e-987f-4784-88ea-d5383398bfec",
-      "changeTest": "",
-      "maxOwned": 1,
-      "levelCap": 0,
-      "xpValue": 25,
-      "isUpgradable": false,
-      "isPurchasable": true,
-      "isDestroyable": false,
-      "isTogglable": false,
-      "canBreakDown": false,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "65899c9e-987f-4784-88ea-d5383398bfec",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 1,
+        "levelCap": 0,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.0,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": false,
+        "isPurchasable": true,
+        "isDestroyable": false,
+        "isTogglable": false,
+        "canBreakDown": false
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 0,
@@ -747,7 +823,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -764,22 +840,27 @@
     },
     {
       "niceName": "Storage Hub",
-      "guid": "438a1c30-f1a3-4564-b782-20bed8e9dc75",
-      "changeTest": "",
-      "maxOwned": 10,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.0,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "438a1c30-f1a3-4564-b782-20bed8e9dc75",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 10,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.0,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 10000,
@@ -791,7 +872,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -845,22 +926,27 @@
     },
     {
       "niceName": "Food Tapper",
-      "guid": "3abbc0d1-9379-4ff2-b262-9e7539a210b3",
-      "changeTest": "",
-      "maxOwned": 1,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": false,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "3abbc0d1-9379-4ff2-b262-9e7539a210b3",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 1,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": false,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -872,7 +958,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -901,22 +987,27 @@
     },
     {
       "niceName": "Food Converter",
-      "guid": "88480f16-ab46-4171-926f-04451f2a223c",
-      "changeTest": "",
-      "maxOwned": 10,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "88480f16-ab46-4171-926f-04451f2a223c",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 10,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -928,7 +1019,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -957,22 +1048,27 @@
     },
     {
       "niceName": "Food Silo",
-      "guid": "1974998b-0ee8-476b-81f4-6a09dd5a742a",
-      "changeTest": "",
-      "maxOwned": 10,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "1974998b-0ee8-476b-81f4-6a09dd5a742a",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 10,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -984,7 +1080,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -1011,22 +1107,27 @@
     },
     {
       "niceName": "Passive Oxygen Generator",
-      "guid": "67530f77-b1f7-4d48-92d6-c5b3d7879164",
-      "changeTest": "",
-      "maxOwned": 10,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "67530f77-b1f7-4d48-92d6-c5b3d7879164",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 10,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -1038,7 +1139,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -1067,22 +1168,27 @@
     },
     {
       "niceName": "Passive Power Generator",
-      "guid": "f70d2fb5-f3a1-48af-8ddd-0abd4ab8cde0",
-      "changeTest": "",
-      "maxOwned": 5,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "f70d2fb5-f3a1-48af-8ddd-0abd4ab8cde0",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 5,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -1094,7 +1200,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -1123,22 +1229,27 @@
     },
     {
       "niceName": "Passive Water Generator",
-      "guid": "09d7d26c-1f93-416b-b408-ab76277e8d5c",
-      "changeTest": "",
-      "maxOwned": 10,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "09d7d26c-1f93-416b-b408-ab76277e8d5c",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 10,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -1150,7 +1261,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -1179,22 +1290,27 @@
     },
     {
       "niceName": "Passive Food Generator",
-      "guid": "8114b4c9-db70-43de-b6df-6b6897abfd6a",
-      "changeTest": "",
-      "maxOwned": 10,
-      "levelCap": 100,
-      "xpValue": 25,
-      "isUpgradable": true,
-      "isPurchasable": true,
-      "isDestroyable": true,
-      "isTogglable": false,
-      "canBreakDown": true,
-      "spinUpDecayRate": 0.05,
-      "breakChanceAway": 0.1,
-      "breakdownTimescaleAway": 0.05,
-      "breakChanceActive": 0.02,
-      "breakdownTimescale": 0.1,
-      "multiCost": {
+      "identifier": {
+        "guid": "8114b4c9-db70-43de-b6df-6b6897abfd6a",
+        "version": ""
+      },
+      "ownership": {
+        "maxOwned": 10,
+        "levelCap": 100,
+        "xpValue": 25
+      },
+      "breakdowns": {
+        "breakChanceAway": 0.1,
+        "breakChanceActive": 0.02
+      },
+      "bools": {
+        "isUpgradable": true,
+        "isPurchasable": true,
+        "isDestroyable": true,
+        "isTogglable": false,
+        "canBreakDown": true
+      },
+      "purchase_multiCost": {
         "costs": [
           {
             "baseCost": 100,
@@ -1206,7 +1322,7 @@
           }
         ]
       },
-      "upgradeCosts": {
+      "upgrade_multiCost": {
         "costs": [
           {
             "baseCost": 100,
