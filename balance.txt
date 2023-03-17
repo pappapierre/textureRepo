@@ -1,6 +1,6 @@
 {
   "sheetName": "v1.0",
-  "notes": "initial version of balance sheet",
+  "notes": "initial version of balance sheet, asserting that this works.",
   "balanceList": [
     {
       "niceName": "--- Lander ---",
