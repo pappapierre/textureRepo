@@ -1,10 +1,10 @@
 {
-  "sheetName": "v1.0",
-  "notes": "initial version of balance sheet, asserting that this works.",
+  "sheetName": "v1.001",
+  "notes": "liveBalance is now live",
   "balanceList": [
     {
       "niceName": "--- Lander ---",
-      "notes": "testing note stickiness",
+      "notes": "",
       "identifier": {
         "guid": "e258cf24-a503-4835-bcf1-7595ae906c40",
         "version": "v1.0"
