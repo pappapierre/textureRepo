@@ -1,16 +1,16 @@
 {
-  "sheetName": "default",
+  "sheetName": "liveTest",
   "balanceList": [
     {
       "niceName": "Lander",
       "identifier": {
         "guid": "e258cf24-a503-4835-bcf1-7595ae906c40",
-        "version": ""
+        "version": "alfred"
       },
       "ownership": {
         "maxOwned": 1,
         "levelCap": 0,
-        "xpValue": 25
+        "xpValue": 50
       },
       "breakdowns": {
         "breakChanceAway": 0.0,
