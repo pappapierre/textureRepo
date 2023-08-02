@@ -1,13 +1,14 @@
 {
-  "sheetName": "1.0.0",
-  "notes": "liveBalance is now live",
+  "sheetName": 1.0.1,
+  "notes": "tappers are more accessible",
+  "lastUpdated": "2023/08/02 || 11:40 AM",
   "balanceList": [
     {
       "niceName": "--- Lander ---",
       "notes": "",
       "identifier": {
         "guid": "e258cf24-a503-4835-bcf1-7595ae906c40",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 1,
@@ -57,7 +58,7 @@
       "notes": "",
       "identifier": {
         "guid": "ee0a9156-9e35-46b1-b5aa-d8ec0004ff37",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 1,
@@ -119,7 +120,7 @@
       "notes": "",
       "identifier": {
         "guid": "031f8bc0-fe73-4e67-9ad5-3298320d6aa9",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 10,
@@ -181,7 +182,7 @@
       "notes": "",
       "identifier": {
         "guid": "8d40234d-e279-46be-bf9a-6f952b1affa5",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 10,
@@ -241,7 +242,7 @@
       "notes": "",
       "identifier": {
         "guid": "9c3c51d6-97c7-4681-b749-39eff44c5250",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 1,
@@ -291,7 +292,7 @@
       "notes": "",
       "identifier": {
         "guid": "399e938d-7d0d-4fae-8102-d49cdc3b353b",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 5,
@@ -341,7 +342,7 @@
       "notes": "",
       "identifier": {
         "guid": "1632c72a-86e2-4bf5-b3e2-d49c6e01db3e",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 1,
@@ -403,7 +404,7 @@
       "notes": "",
       "identifier": {
         "guid": "5ebdd44b-d5df-46a5-8a52-a07aad0d513a",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 10,
@@ -465,7 +466,7 @@
       "notes": "",
       "identifier": {
         "guid": "dd533b8e-bd6a-4dec-a80d-78129fb66952",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 10,
@@ -525,7 +526,7 @@
       "notes": "",
       "identifier": {
         "guid": "fbf553e3-207e-4b8b-9569-35c4c8a7ad87",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 1,
@@ -575,7 +576,7 @@
       "notes": "",
       "identifier": {
         "guid": "bb8fb873-d901-4637-b252-e74299ab56d8",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 5,
@@ -625,7 +626,7 @@
       "notes": "",
       "identifier": {
         "guid": "a8b3312c-c975-4768-b4a5-c3f21b8be30c",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 1,
@@ -638,7 +639,7 @@
       },
       "bools": {
         "isUpgradable": true,
-        "isPurchasable": false,
+        "isPurchasable": true,
         "isDestroyable": true,
         "isTogglable": false,
         "canBreakDown": true
@@ -669,7 +670,7 @@
       },
       "producers": [
         {
-          "resourceType": 0,
+          "resourceType": 2,
           "isConsumer": false,
           "baseRate": 0.5,
           "perLevelMult": 1.005,
@@ -687,7 +688,7 @@
       "notes": "",
       "identifier": {
         "guid": "0188bf43-6353-465a-90fa-60ebb4f8d609",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 10,
@@ -749,7 +750,7 @@
       "notes": "",
       "identifier": {
         "guid": "5f139964-7f05-4607-b9a9-b94dd8ab681d",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 10,
@@ -809,7 +810,7 @@
       "notes": "",
       "identifier": {
         "guid": "65899c9e-987f-4784-88ea-d5383398bfec",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 1,
@@ -859,7 +860,7 @@
       "notes": "",
       "identifier": {
         "guid": "438a1c30-f1a3-4564-b782-20bed8e9dc75",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 10,
@@ -946,7 +947,7 @@
       "notes": "",
       "identifier": {
         "guid": "3abbc0d1-9379-4ff2-b262-9e7539a210b3",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 1,
@@ -959,7 +960,7 @@
       },
       "bools": {
         "isUpgradable": true,
-        "isPurchasable": false,
+        "isPurchasable": true,
         "isDestroyable": true,
         "isTogglable": false,
         "canBreakDown": true
@@ -990,7 +991,7 @@
       },
       "producers": [
         {
-          "resourceType": 0,
+          "resourceType": 3,
           "isConsumer": false,
           "baseRate": 0.5,
           "perLevelMult": 1.005,
@@ -1008,7 +1009,7 @@
       "notes": "",
       "identifier": {
         "guid": "88480f16-ab46-4171-926f-04451f2a223c",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 10,
@@ -1070,7 +1071,7 @@
       "notes": "",
       "identifier": {
         "guid": "1974998b-0ee8-476b-81f4-6a09dd5a742a",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 10,
@@ -1130,7 +1131,7 @@
       "notes": "",
       "identifier": {
         "guid": "67530f77-b1f7-4d48-92d6-c5b3d7879164",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 10,
@@ -1192,7 +1193,7 @@
       "notes": "",
       "identifier": {
         "guid": "f70d2fb5-f3a1-48af-8ddd-0abd4ab8cde0",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 5,
@@ -1254,7 +1255,7 @@
       "notes": "",
       "identifier": {
         "guid": "09d7d26c-1f93-416b-b408-ab76277e8d5c",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 10,
@@ -1316,7 +1317,7 @@
       "notes": "",
       "identifier": {
         "guid": "8114b4c9-db70-43de-b6df-6b6897abfd6a",
-        "version": "v1.0"
+        "version": null
       },
       "ownership": {
         "maxOwned": 10,
